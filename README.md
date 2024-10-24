@@ -11,8 +11,6 @@ An online recreation of the popular board game _Wingspan_, developed using Vite,
 - [Usage](#usage)
 - [Current Progress](#current-progress)
 - [Future Goals](#future-goals)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
