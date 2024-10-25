@@ -4,7 +4,7 @@ import SelectedBirdCard from "@/components/game/individual/bird/SelectedBirdCard
 import DiscardBtn from "@/components/game/individual/buttons/DiscardBtn";
 import SelectBtn from "@/components/game/individual/buttons/SelectBtn";
 import BrownDiscardBtn from "@/components/game/individual/buttons/brownDiscardBtn";
-import BrownSelectBtn from "@/components/game/individual/buttons/brownSelectBtn";
+import BrownSelectBtn from "@/components/game/individual/buttons/BrownSelectBtn";
 BrownDiscardBtn;
 import WhiteSelectBtn from "@/components/game/individual/buttons/WhiteSelectBtn";
 
