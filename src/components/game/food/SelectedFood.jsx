@@ -2,7 +2,7 @@ import { useAtom } from "jotai";
 import { selectedFoodAtom } from "@/utils/jotaiStore";
 import DiscardBtn from "@/components/game/individual/buttons/DiscardBtn";
 import SelectBtn from "@/components/game/individual/buttons/SelectBtn";
-import BrownSelectBtn from "@/components/game/individual/buttons/brownSelectBtn";
+import BrownSelectBtn from "../individual/buttons/brownSelectBtn";
 import SelectedFoodToken from "@/components/game/individual/food/SelectedFoodToken";
 import BrownDiscardBtn from "@/components/game/individual/buttons/brownDiscardBtn";
 import WhiteSelectBtn from "@/components/game/individual/buttons/WhiteSelectBtn";
