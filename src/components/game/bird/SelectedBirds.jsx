@@ -1,12 +1,12 @@
 import { useAtom } from "jotai";
 import { selectedBirdsAtom, playBirdAtom } from "../../../utils/jotaiStore";
-import SelectedBirdCard from "../individual/bird/SelectedBirdCard";
-import DiscardBtn from "../individual/buttons/DiscardBtn";
-import SelectBtn from "../individual/buttons/SelectBtn";
-import BrownDiscardBtn from "../individual/buttons/brownDiscardBtn";
-import BrownSelectBtn from "../individual/buttons/brownSelectBtn";
+import SelectedBirdCard from "@/components/game/individual/bird/SelectedBirdCard";
+import DiscardBtn from "@/components/game/individual/buttons/DiscardBtn";
+import SelectBtn from "@/components/game/individual/buttons/SelectBtn";
+import BrownDiscardBtn from "@/components/game/individual/buttons/brownDiscardBtn";
+import BrownSelectBtn from "@/components/game/individual/buttons/brownSelectBtn";
 BrownDiscardBtn;
-import WhiteSelectBtn from "../individual/buttons/WhiteSelectBtn";
+import WhiteSelectBtn from "@/components/game/individual/buttons/WhiteSelectBtn";
 
 const SelectedBirds = ({ brownBirdSupply, moveBirdSupply }) => {
   const [selectedBirds] = useAtom(selectedBirdsAtom);
