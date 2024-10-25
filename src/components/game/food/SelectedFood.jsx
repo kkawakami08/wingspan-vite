@@ -1,11 +1,11 @@
 import { useAtom } from "jotai";
 import { selectedFoodAtom } from "@/utils/jotaiStore";
-import DiscardBtn from "@/components/individual/buttons/DiscardBtn";
-import SelectBtn from "@/components/individual/buttons/SelectBtn";
-import BrownSelectBtn from "@/components/individual/buttons/brownSelectBtn";
-import SelectedFoodToken from "@/components/individual/food/SelectedFoodToken";
-import BrownDiscardBtn from "@/components/individual/buttons/brownDiscardBtn";
-import WhiteSelectBtn from "@/components/individual/buttons/WhiteSelectBtn";
+import DiscardBtn from "@/components/game/individual/buttons/DiscardBtn";
+import SelectBtn from "@/components/game/individual/buttons/SelectBtn";
+import BrownSelectBtn from "@/components/game/individual/buttons/brownSelectBtn";
+import SelectedFoodToken from "@/components/game/individual/food/SelectedFoodToken";
+import BrownDiscardBtn from "@/components/game/individual/buttons/brownDiscardBtn";
+import WhiteSelectBtn from "@/components/game/individual/buttons/WhiteSelectBtn";
 
 const SelectedFood = ({ brownBirdSupply, moveBirdSupply }) => {
   const [selectedFood] = useAtom(selectedFoodAtom);

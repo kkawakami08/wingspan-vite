@@ -4,13 +4,13 @@ import {
   selectedBirdsAtom,
   selectedFoodAtom,
   playerFoodSupplyAtom,
-} from "../../../../utils/jotaiStore";
-import { saveFoodSelection } from "../../../../utils/gameFunctions/foodFunctions";
+} from "@/utils/jotaiStore";
+import { saveFoodSelection } from "@/utils/gameFunctions/foodFunctions";
 import {
   continueBrownPower,
   tuckCard,
-} from "../../../../utils/gameFunctions/birdPowerFunctions";
-import { birdFeederCheck } from "../../../../utils/gameFunctions/brownPowerHelperFunctions";
+} from "@/utils/gameFunctions/birdPowerFunctions";
+import { birdFeederCheck } from "@/utils/gameFunctions/brownPowerHelperFunctions";
 
 const BrownSelectBtn = ({ brownBirdSupply }) => {
   const [selectedBirds, setSelectedBirds] = useAtom(selectedBirdsAtom);
