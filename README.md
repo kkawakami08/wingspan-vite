@@ -1,6 +1,7 @@
 # Wingspan Web App
 
 An online recreation of the popular board game _Wingspan_, developed using Vite, Tailwind CSS, React, and Jotai for state management.
+[Link to live page](https://kkawakami08.github.io/wingspan-vite/)
 
 ## Table of Contents
 
